@@ -1,0 +1,117 @@
+Strings:
+    String Handling Fuctions
+    Slicing, indexing
+    String Methods
+Case conversion
+
+str.upper() – converts all characters to uppercase
+
+str.lower() – converts all characters to lowercase
+
+str.capitalize() – capitalizes the first character
+
+str.title() – capitalizes the first letter of each word
+
+str.swapcase() – swaps uppercase to lowercase and vice versa
+
+str.casefold() – aggressive lowercase (for case-insensitive comparisons)
+
+Search and check
+
+str.find(sub[, start[, end]]) – returns the lowest index of sub or -1 if not found
+
+str.rfind(sub[, start[, end]]) – same as find, but from the right
+
+str.index(sub[, start[, end]]) – like find, but raises ValueError if not found
+
+str.rindex(sub[, start[, end]]) – reverse version of index
+
+str.count(sub[, start[, end]]) – counts occurrences of a substring
+
+Validation / Boolean checks
+
+(check if a string satisfies a certain condition)
+
+str.isalnum() – only letters and numbers
+
+str.isalpha() – only letters
+
+str.isascii() – only ASCII characters
+
+str.isdecimal() – only decimal characters
+
+str.isdigit() – only digits
+
+str.isnumeric() – numeric characters (includes fractions, superscripts, etc.)
+
+str.isidentifier() – valid Python identifier
+
+str.islower() – all lowercase
+
+str.isupper() – all uppercase
+
+str.isspace() – only whitespace
+
+str.istitle() – title case
+
+str.isprintable() – printable characters only
+
+Modification
+
+str.replace(old, new[, count]) – replaces substring occurrences
+
+str.strip([chars]) – removes leading and trailing characters
+
+str.lstrip([chars]) – removes leading characters
+
+str.rstrip([chars]) – removes trailing characters
+
+str.removeprefix(prefix) – removes a specific prefix (Python 3.9+)
+
+str.removesuffix(suffix) – removes a specific suffix (Python 3.9+)
+
+str.expandtabs(tabsize=8) – replaces tabs with spaces
+
+Splitting and joining
+
+str.split(sep=None, maxsplit=-1) – splits string into a list
+
+str.rsplit(sep=None, maxsplit=-1) – splits from the right
+
+str.splitlines([keepends]) – splits on line breaks
+
+str.join(iterable) – joins elements with the string as separator
+
+Alignment and formatting
+
+str.center(width[, fillchar]) – centers the string
+
+str.ljust(width[, fillchar]) – left aligns
+
+str.rjust(width[, fillchar]) – right aligns
+
+str.zfill(width) – pads string with zeros on the left
+
+str.format(*args, **kwargs) – string formatting
+
+str.format_map(mapping) – similar to format but takes a mapping object
+
+Encoding and translation
+
+str.encode(encoding='utf-8', errors='strict') – returns encoded version
+
+str.maketrans(x[, y[, z]]) – creates a translation table
+
+str.translate(table) – translates characters using a translation table
+Lists: 
+    List as a Sequence, Traversing a list, List Operations, List Slices, 
+    List Methods, Map, filter and Reduce, Deleting
+    Elements, Lists and Strings, Objects and Values, Aliasing, List Arguments
+Tuples:
+    Tuple Assignment, Tuples as return values, Variable Length argument tuples, 
+    Lists and Tuples, Dictionaries and
+    Tuples, Comparing Tuples, Sequences of sequences
+
+Dictionaries: 
+    Dictionary as a set of counters,
+    Looping and Dictionaries, Reverse Look Up, Dictionaries and Lists
